@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import FastClick from 'fastclick'
 import VueLazyLoad from 'vue-lazyload'
+import '../rem'
 
 import toast from 'components/common/toast'
 
