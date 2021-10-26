@@ -26,7 +26,7 @@ export class Goods {
     this.Price = itemInfo.price;
     this.oldPrice = itemInfo.oldPrice;
     this.discount = itemInfo.discountDesc;
-    this.realNowPrice = itemInfo.lowNowPrice
+    this.realNowPrice = itemInfo.lowNowPrice;
   }
 }
 export class Shop {
