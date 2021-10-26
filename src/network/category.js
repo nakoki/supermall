@@ -4,7 +4,7 @@ export function getCategoryMultidata() {
   return request({
     url: '/category'
   })
-}
+};
 export function getSubcategory(maitKey) {
   return request({
     url: '/subcategory',
@@ -12,7 +12,7 @@ export function getSubcategory(maitKey) {
       maitKey: maitKey
     }
   })
-}
+};
 export function getCategoryDetail(miniWallkey, type) {
   return request({
     url: '/subcategory/detail',
@@ -21,4 +21,4 @@ export function getCategoryDetail(miniWallkey, type) {
       type
     }
   })
-}
+};
