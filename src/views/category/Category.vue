@@ -57,12 +57,4 @@ export default {
   right: 0;
   bottom: 49px;
 }
-.left {
-  flex: 1;
-  background: #ddd;
-}
-.right {
-  flex: 3;
-  background: purple;
-}
 </style>
