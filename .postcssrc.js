@@ -7,7 +7,7 @@ module.exports = {
       "postcss-pxtorem": {
           viewportWidth: 1920, // (Number) 视口的宽度。
           viewportHeight: 1024, // (Number) 视口的高度。
-          unitPrecision: 3, // (Number) 允许 REM 单位增长到的十进制数。
+          unitPrecision: 5, // (Number) 允许 REM 单位增长到的十进制数。
           viewportUnit: 'rem', // (String) 预期单位.
           selectorBlackList: [], // (Array) 要忽略并保留为 px 的选择器。
           minPixelValue: 1, // (Number) 设置要替换的最小像素值。
